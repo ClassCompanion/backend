@@ -1,0 +1,29 @@
+{
+  "properties": [
+	{
+	  "name": "classcompanion.jwtSecret",
+	  "type": "java.lang.String",
+	  "description": "The secret used to sign the JWT token."
+	},
+	{
+	  "name": "classcompanion.jwtExpiration",
+	  "type": "java.lang.Long",
+	  "description": "The expiration time of the JWT token."
+	},
+	{
+	  "name": "eduimpl.implementation",
+	  "type": "org.classcompanion.extensions.eduimpl.EduImpl",
+	  "description": "Education implementation for ClassCompanion."
+	},
+	{
+	  "name": "eduimpl.username",
+	  "type": "java.lang.String",
+	  "description": "Username for selected education implementation."
+	},
+	{
+	  "name": "eduimpl.password",
+	  "type": "java.lang.String",
+	  "description": "Password for selected education implementation."
+	}
+  ]
+}
